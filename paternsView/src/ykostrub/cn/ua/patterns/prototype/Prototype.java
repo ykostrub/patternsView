@@ -3,8 +3,7 @@ package ykostrub.cn.ua.patterns.prototype;
 import java.io.Serializable;
 
 public class Prototype 
-// implements Serializable
-  implements Cloneable
+ implements Serializable, Cloneable
 {
   
   public Prototype(){};
